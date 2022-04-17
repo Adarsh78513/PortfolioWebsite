@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include("./partials/head.ejs") %>
+<body>
+
+    <%- include("./partials/header.ejs") %>
+
+    <h1>**Make forms so to write journmals properly and start early on that**</h1>
+
+
+
+
+    <!-- <form>
+        <textarea id="newjournal" name="journal"  placeholder="Start typing..."></textarea>
+        <input type = "submit" value = "Submit">
+    </form>  -->
+
+
+    <!-- To resize the textarea as we type, or paste -->
+    <!-- <script type="text/javascript">
+        textarea = document.querySelector(".form-group");
+        textarea.addEventListener('input', autoResize, false);
+
+        function autoResize() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+        }
+    </script> -->
+
+    
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+
+    <%- include("./partials/footer.ejs") %>
+</body>
+</html>

@@ -1,0 +1,140 @@
+h1 {
+    text-align:center ;
+    color: black; 
+    
+}
+
+#newjournal {
+    width: 80vw;
+}
+
+svg{
+    fill: rgb(50, 94, 71);
+}
+body {
+    background-color: rgb(242, 237, 231);
+    color: rgb(32, 29, 29);
+    margin: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    background-image: url('Lam.jpg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: top center;
+    background-attachment: scroll;
+}
+
+.header {
+    border-bottom: 5px solid rgb(50, 94, 71);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(98, 146, 122);
+}
+
+.nav{
+    position: relative;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.footer {
+    border-top: 5px solid rgb(50, 94, 71);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(98, 146, 122);
+}
+
+.footer a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.contacts{
+    float: right;
+}
+
+.icon {
+    width:"40px"; 
+    height:"40px";
+}
+
+
+section {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding:  100px 20vw;
+
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.wave .shape-fill {
+    fill: rgb(20, 27, 31);
+}
+
+.circle-scatter {
+    aspect-ratio: 900/600;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+a {
+    color: rgb(0, 68, 255);
+}
+
+.info {
+    list-style-type: none;
+    font-size:larger;
+    color: rgb(4, 104, 57);
+
+}
+
+.a {
+    color: rgb(0, 255, 64);
+}
+
+
+
+#sec {
+    color: brown;
+    background-color: blue;
+}
